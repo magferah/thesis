@@ -1,2 +1,11 @@
 https://www.atlantis-press.com/journals/nlpr/125954372/view
-Summery will be written later.
+firstly, a specific domain-based categorical weighted lexicon data dictionary (LDD) is developed for analyzing sentiments in Bangla.
+
+secondly, a novel rule–based algorithm termed as Bangla Text Sentiment Score (BTSC) is developed for detecting sentence polarity. 
+This algorithm considers parts of speech tagger words and special characters to generate a score of a word and thus that of a sentence and a blog.
+
+Thirdly, two feature matrices are developed by applying term frequency-inverse document frequency (tf-idf) to the two datasets,
+and by using the corresponding BTSC scores
+
+Next, supervised machine learning classifiers are applied to the feature matrices. Results show that for the case of BiGram feature, support vector machine (SVM) 
+achieves the best classification accuracy of 82.21%  indicating the effectiveness of BTSC algorithm in Bangla SA.
